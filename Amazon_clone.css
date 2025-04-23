@@ -1,19 +1,19 @@
 body {
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    font-family: Arial, sans-serif; /* Optional: Set a font for the page */
-    background-color: #f5f5f5; /* Optional: Set a background color for the page */
+    margin: 0; 
+    padding: 0;
+    font-family: Arial, sans-serif; 
+    background-color: #f5f5f5; 
 }
 
 nav {
-    background-color: #232f3e; /* Amazon Header Color */
+    background-color: #232f3e; 
     color: white;
     padding: 15px;
     display: flex;
-    flex-direction: row; /* Align items horizontally */
-    align-items: center; /* Center items vertically */
-    justify-content: space-between; /* Add space between items */
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
 }
 #nav-list{
     display: flex;
@@ -38,8 +38,8 @@ nav select {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    margin-right: 20px; /* Add spacing between the dropdown and other elements */
-    background-color: #37475a; /* Darker background for the dropdown */
+    margin-right: 20px; /
+    background-color: #37475a; 
     color: white;
 }
 
@@ -48,7 +48,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 15px; /* Add spacing between list items */
+    gap: 15px; 
 }
 
 nav ul li {
@@ -63,29 +63,29 @@ nav a {
 
 div {width: 800px;
     height: 1000px;
-    display: flex; /* Use Flexbox for layout */
-    flex-wrap: wrap-reverse; /* Allow wrapping to the next row */
-    justify-content: center; /* Center all items horizontally */
-    gap: 5px; /* Add consistent spacing between items */
-    padding: 20px; /* Add padding around the container */
-    background-color: yellow; /* Background color for the container */
-    width: 80%; /* Make the container responsive */
-    max-width: 1000px; /* Set a maximum width for the container */
-    margin: 20px auto; /* Center the main div below the nav bar */
-    box-sizing: border-box; /* Include padding in width/height calculations */
-    border: 2px solid #ccc; /* Optional: Add a border for better visibility */
+    display: flex; 
+    flex-wrap: wrap-reverse; 
+    justify-content: center; 
+    gap: 5px; 
+    padding: 20px; 
+    background-color: yellow; 
+    width: 80%; 
+    max-width: 1000px; 
+    margin: 20px auto; 
+    box-sizing: border-box; 
+    border: 2px solid #ccc; 
    
 }
 
 div.box {
     width: 200px;
     height: 200px;
-    background-color: white; /* Box color */
-    border-radius: 5px; /* Rounded corners */
+    background-color: white; 
+    border-radius: 5px; 
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 div.box:hover {
-    transform: scale(1.1); /* Slight zoom effect on hover */
-    background-color: #005bb5; /* Darker color on hover */
+    transform: scale(1.1); 
+    background-color: #005bb5; 
 }
