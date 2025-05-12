@@ -1,0 +1,94 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: Arial, sans-serif; /* Optional: Set a font for the page */
+    background-color: #f5f5f5; /* Optional: Set a background color for the page */
+}
+
+nav {
+    background-color: #232f3e; /* Amazon Header Color */
+    color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Add space between items */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+#nav-list{
+    display: flex;
+    gap: 10px;
+}
+
+nav h2 {
+    margin-right: 20px; /* Add spacing between the logo and other elements */
+    flex-shrink: 0; /* Prevent the logo from shrinking */
+}
+
+nav input[type="search"] {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px; /* Add spacing between the search bar and other elements */
+}
+
+nav select {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px; /* Add spacing between the dropdown and other elements */
+    background-color: #37475a; /* Darker background for the dropdown */
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px; /* Add spacing between list items */
+}
+
+nav ul li {
+    margin: 20px 0px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline;
+}
+
+div {width: 100vw;
+    height: 100vh;
+    background-color: rgb(226, 230, 230);
+   
+}
+
+div.box {
+    width: 200px;
+    height: 200px;
+    gap: 15px;
+    background-color: white; /* Box color */
+    border-radius: 5px; /* Rounded corners */
+    border-color: black;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+}
+h2{
+    text-align: end;
+   
+}
+
+div.box:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    background-color: #005bb5; /* Darker color on hover */
+}
