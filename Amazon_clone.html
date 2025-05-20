@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon_clone</title>
+    <link rel="stylesheet" href="Amazon_clone.css">
+    <script src="server.js"></script>
+    <script defer src="cart.js"></script>
+</head>
+<body>
+    <nav>
+        <h2> <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="" class="amazon-logo"></h2>
+        <br>
+      
+        <input type="search" name="" id="search" placeholder="search amazon in">
+        <br>
+        <select name="" id="Language">
+            <option value="" selected disabled hidden> Select Lang </option>
+            <option value="">Eng</option>
+            <option value="">marathi</option>
+            <option value="">Japanise</option>
+            <option value="">hindi </option>
+        </select>
+        <ul>
+            <li><a href="">hello,sign in!</a></li>
+            <li><select name="" id="account-select" onchange="if(this.value) window.location.href=this.value;">
+    <option value="" selected disabled hidden> Accounts & List</option>
+    <option value="login.html">Login</option>
+    <option value="Registration.html">Registration</option>
+    <option value="">Setting</option>
+    <option value="admin.html">Admin</option>
+                 </select>
+            </li>
+        </ul>
+        <ul class="1">
+          <h2>returns</h2>  
+          <h1>& Orders</h1>
+        </ul>
+       <ul class="2" id="cart">
+    <h1>Cart (<span id="cart-count">0</span>)</h1>
+    <div id="cart-items" style="display: none;">
+        <h2>Cart Items</h2>
+        <ul id="cart-list"></ul>
+    </div>
+        </ul>
+        <br>
+        <ul id="nav-list">
+            <li><a href="/All"> ☰All</a></li>
+            <li><a href="/fresh.html">Fresh</a></li>
+            <li><a href="/mxPlayer.html">Mx Player</a></li>
+            <li><a href="/sell.html">Sell</a></li>
+            <li><a href="/best seller">Best Seller</a></li>
+            <li><a href="/mobile.html">Mobile</a></li>
+            <li><a href="/todaysDeal.html">Todays Deals</a></li>
+            <li><a href="/customer service">Customer Service</a></li>
+            <li><a href="/new release">New Release</a></li>
+            <li><a href="/fashion.html">Fashion</a></li>
+            <li><a href="/electronics.html">Electronics</a></li>
+            <li><a href="/amazon pay">Amazon pay</a></li>
+            <li><a href="/home & kitchen">Home & kitchen</a></li>
+            <li><a href="/computers">Computers</a></li>
+            <li><a href="/books">Books</a></li>
+            <li><a href="/Cars & Motorbikes">Cars & Motorbikes</a></li>
+            <li><a href="/Toys & games">Toys & games</a></li>
+            <li><a href="/Home Improvement">Home Improvement </a></li>
+            <li><a href="">Gift Cards</a></li>
+            <li><a href="">Grocery & Gorment Food</a></li>
+            <li><a href=""></a></li>
+            <li><a href="">Health Household & PersonalCare</a></li>
+        </ul>
+       
+        
+    </nav>
+    <div>
+        <div class="box" data-name="Air Conditioner" data-price="499">
+            <img src="asset/Ac.jpeg" alt="">
+            <h3>Air Conditioner</h3>
+            <p>Price: $499</p>
+        </div>
+        <div class="box" data-name="Fashion Item 1" data-price="59">
+            <img src="asset/fashion1.jpeg" alt="">
+            <h3>Fashion Item 1</h3>
+            <p>Price: $59</p>
+        </div>
+        <div class="box" data-name="Fashion Item 2" data-price="79">
+            <img src="asset/fashion.jpeg" alt="">
+            <h3>Fashion Item 2</h3>
+            <p>Price: $79</p>
+        </div>
+        <div class="box" data-name="Gaming Console" data-price="299">
+            <img src="asset/games.jpeg" alt="">
+            <h3>Gaming Console</h3>
+            <p>Price: $299</p>
+        </div>
+        <div class="box" data-name="Cosmetics" data-price="25">
+            <img src="asset/cosmatic.jpeg" alt="">
+            <h3>Cosmetics</h3>
+            <p>Price: $25</p>
+        </div>
+        <div class="box" data-name="Mobile Phone" data-price="699">
+            <img src="asset/mobile.jpeg" alt="">
+            <h3>Mobile Phone</h3>
+            <p>Price: $699</p>
+        </div>
+        <div class="box" data-name="Shoes" data-price="89">
+            <img src="asset/shoes.jpeg" alt="">
+            <h3>Shoes</h3>
+            <p>Price: $89</p>
+        </div>
+        <div class="box" data-name="Air Conditioner 2" data-price="599">
+            <img src="asset/Ac1.jpeg" alt="">
+            <h3>Air Conditioner 2</h3>
+            <p>Price: $599</p>
+        </div>
+        <div class="box">
+            <img src="asset/cosmatic1.jpeg" alt="">
+            <h3>Cosmetics Set</h3>
+            <p>Price: $35</p>
+        </div>
+        <div class="box" data-name="Fashion Item 3" data-price="49">
+            <img src="asset/fashion1.jpeg" alt="">
+            <h3>Fashion Item 3</h3>
+            <p>Price: $49</p>
+        </div>
+        <div class="box" data-name="Shoes 2" data-price="99">
+            <img src="asset/shoes1.jpeg" alt="">
+            <h3>Shoes 2</h3>
+            <p>Price: $99</p>
+        </div>
+        <div class="box">
+            <img src="" alt="">
+            <h2><a href="/see more">See More</a></h2>
+        </div>
+    </div>
+    
+</body>
+</html>

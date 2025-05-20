@@ -1,0 +1,168 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: Arial, sans-serif; /* Optional: Set a font for the page */
+    background-color: #f5f5f5; /* Optional: Set a background color for the page */
+}
+
+nav {
+    background-color: #232f3e; /* Amazon Header Color */
+    color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Add space between items */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+#nav-list {
+    display: flex;
+    gap: 10px;
+}
+
+.amazon-logo {
+            
+            filter: brightness(0) invert(1);
+
+            display: block;
+            margin: 0 auto 20px auto;
+            width: 200px;
+            height: 80px;
+}
+nav h2 {
+    margin-right: 20px; /* Add spacing between the logo and other elements */
+    flex-shrink: 0; /* Prevent the logo from shrinking */
+}
+
+nav input[type="search"] {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px; /* Add spacing between the search bar and other elements */
+}
+
+nav select {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px; /* Add spacing between the dropdown and other elements */
+    background-color: #37475a; /* Darker background for the dropdown */
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px; /* Add spacing between list items */
+}
+
+nav ul li {
+    margin: 20px 0px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style for the cart items container */
+#cart-items {
+    background-color: white; /* Set background to white */
+    color: black; /* Set text color to black */
+    border: 1px solid #ccc; /* Add a light border */
+    border-radius: 5px; /* Add rounded corners */
+    padding: 10px; /* Add padding inside the container */
+    margin-top: 10px; /* Add spacing above the cart items */
+    max-width: 300px; /* Optional: Limit the width of the cart items container */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style for the cart items list */
+#cart-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+/* Style for individual cart items */
+#cart-list li {
+    padding: 5px 0; /* Add spacing between items */
+    border-bottom: 1px solid #eee; /* Add a light divider between items */
+}
+
+/* Style for the last item to remove the bottom border */
+#cart-list li:last-child {
+    border-bottom: none;
+}
+
+div {
+    display: flex; /* Use Flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping to the next row */
+    justify-content: center; /* Center all items horizontally */
+    gap: 20px; /* Add consistent spacing between items */
+    padding: 20px; /* Add padding around the container */
+    background-color: yellow; /* Background color for the container */
+    width: 80%; /* Make the container responsive */
+    max-width: 1000px; /* Set a maximum width for the container */
+    margin: 20px auto; /* Center the main div below the nav bar */
+    box-sizing: border-box; /* Include padding in width/height calculations */
+    border: 2px solid #ccc; /* Optional: Add a border for better visibility */
+}
+
+div.box {
+    width: 200px;
+    height: 300px; /* Increased height to accommodate text */
+    background-color: white; /* Box color */
+    border-radius: 5px; /* Rounded corners */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center content horizontally */
+    justify-content: space-between; /* Space out content evenly */
+    padding: 10px; /* Add padding inside the box */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+div.box img {
+    width: 100%;
+    height: 150px; /* Fixed height for images */
+    object-fit: cover; /* Ensure images fit within the box */
+    border-radius: 5px;
+}
+
+div.box h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: center;
+    color: #333;
+}
+
+div.box p {
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+div.box:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    background-color: #e0e0e0; /* Lighter background on hover */
+}
+
+img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+}
+
+h2 {
+    text-align: end;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel - Amazon Clone</title>
+    <link rel="stylesheet" href="Amazon_clone.css">
+    <script defer src="admin.js"></script>
+    <style>
+        .hidden { display: none; }
+        .product-list li { margin-bottom: 8px; }
+        .remove-btn { margin-left: 10px; color: red; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <nav>
+        <h2>Amazon Admin Panel</h2>
+        <a href="Amazon_clone.html">Back to Home</a>
+    </nav>
+
+    <!-- Admin Login Section -->
+    <div id="login-section">
+        <h3>Admin Login</h3>
+        <input type="password" id="admin-password" placeholder="Enter admin password">
+        <button id="login-btn">Login</button>
+        <p id="login-error" style="color:red;"></p>
+    </div>
+
+    <!-- Admin Panel Section (hidden by default) -->
+    <div id="admin-panel" class="hidden">
+        <h3>Manage Products</h3>
+        <form id="add-product-form">
+            <input type="text" id="product-name" placeholder="Product Name" required>
+            <input type="number" id="product-price" placeholder="Price" required>
+            <button type="submit">Add Product</button>
+        </form>
+        <ul id="product-list" class="product-list"></ul>
+        <h3>Cart Items (For Demo)</h3>
+        <ul id="admin-cart-list"></ul>
+    </div>
+</body>
+</html>
